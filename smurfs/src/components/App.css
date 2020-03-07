@@ -1,3 +1,58 @@
 .App {
   text-align: center;
 }
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 35%;
+}
+
+.Form-Input {
+  margin-bottom: 1%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  padding-left: 2px;
+  border-radius: 10px;
+}
+
+.Form-Button {
+  font-size: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  border-radius: 10px;
+  background-color: #223d41;
+  color: white;
+}
+
+.Form-Button:hover {
+  background-color: #742901;
+}
+
+.Smurf-Cards-Box {
+  margin-bottom: 4%;
+}
+
+.Smurf-Card {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  background-color: #141919;
+  color: #ffdf00;
+  border-radius: 2px;
+  box-shadow: #a3bf00 4px 4px 6px 6px;
+}
+
+.Smurf-Card:hover {
+  background-color: #f82c00;
+  color: white;
+  zoom: 150%;
+  box-shadow: #2f2f2f 4px 4px 6px 6px;
+}
